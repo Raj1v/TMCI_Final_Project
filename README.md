@@ -1,4 +1,4 @@
-Default repository template
+Final Project Text Mining & Collective Intelligence
 ===========================
 
 Eva Gmelich Meijling, Rajiv Manichand and Hanabi Ono
