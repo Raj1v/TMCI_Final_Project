@@ -1,4 +1,4 @@
-Default repository template
+Final Project Text Mining & Collective Intelligence
 ===========================
 
 Eva Gmelich Meijling, Rajiv Manichand and Hanabi Ono
@@ -28,24 +28,22 @@ What main trends can we distinguish between the two US parties, democrats and re
 
 -   What are the ideologies of both parties?
 
+
+
 Dataset
 -------
 
 Dataset 1:  Public domain code that collects data about the bills, amendments, roll call votes, and other core data about the U.S. Congress.
 
--   The repository contains very clear on how to manage and process the data. We will enrich the data by assigning each bill to a topic and the kind of congress.
+-   The repository is a scraper that retrieves congress data from Internet sources, however data from 1973-now is also available as files. For this reason, we initially only use data from this timeframe
+-   The repository contains very clear information on how to manage and process the data. We will enrich the data by assigning each bill to a topic and the dominant party in congress.
+-   For each bill, a JSON file is given with all relevant information, such as titles, description and statusses.
 
 Examples:\
 Size and format: The size of the data set is huge since it contains bills from 1790 - 2014 and also other information. The format is a GitHub repository.\
 Link: <https://github.com/unitedstates/congress/>
 
-Dataset 2:  Lexical shifts, substantive changes, and continuity in State of the Union discourse, 1790--2014
 
--   We don't know how we will manage, process and enrich the data yet.
-
-Examples:\
-Format: pdf\
-Link: <https://www.pnas.org/content/pnas/112/35/10837.full.pdf>
 
 A tentative list of milestones for the project
 ----------------------------------------------
@@ -72,3 +70,9 @@ Documentation
 -------------
 
 This can be added as the project unfolds. You should describe, in particular, what your repo contains and how to reproduce your results.
+
+
+Miscellaneous
+-------------
+Simlar paper:  Lexical shifts, substantive changes, and continuity in State of the Union discourse, 1790--2014
+Link: <https://www.pnas.org/content/pnas/112/35/10837.full.pdf>
