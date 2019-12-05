@@ -18,16 +18,16 @@ def get_bill_file_paths(congress):
         A list of relative paths to files containing bills data
     """
     bill_files = []
-
+    bills_folder = 'data/bills/'
     # Loop over bills of the House of Representatives
-    for bill_dir in listdir('bills/' + str(congress) + '/hr'):
-        bill_file = 'bills/' + str(congress) + '/hr/' + bill_dir + '/data.json'
+    for bill_dir in listdir(bills_folder + str(congress) + '/hr'):
+        bill_file = bills_folder + str(congress) + '/hr/' + bill_dir + '/data.json'
         if path.exists(bill_file):
             bill_files.append(bill_file)
 
     # Loop over bills of the Senate
-    for bill_dir in listdir('bills/' + str(congress) + '/s'):
-        bill_file = 'bills/' + str(congress) + '/s/' + bill_dir + '/data.json'
+    for bill_dir in listdir(bills_folder + str(congress) + '/s'):
+        bill_file = bills_folder + str(congress) + '/s/' + bill_dir + '/data.json'
         if path.exists(bill_file):
             bill_files.append(bill_file)
 
