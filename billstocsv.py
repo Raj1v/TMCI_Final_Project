@@ -20,7 +20,7 @@ def Tidclean(Tid):
 from bill_paths import get_bill_file_paths
 
 # All the bills are organized alphabetically so instead of hr1, hr2, hr3 you'll get hr1, hr10, hr100 but the order is not relevant to us.
-for congress_num in range(103, 112):
+for congress_num in range(107, 112):
     lo_bills = []
     print(congress_num)
     bill_paths = get_bill_file_paths(congress_num)
