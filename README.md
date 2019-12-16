@@ -6,12 +6,12 @@ Eva Gmelich Meijling, Rajiv Manichand and Hanabi Ono
 Title
 -----
 
-Main trends in the changes of US congress legislation between the two US parties, Democrats and Republicans.
+Topic Modeling on Bills of the US Congress
 
 Abstract
 --------
 
-For the project, we will do an analysis of the congress' bills to see the parties' main governmental interests. Utilizing the text of every bill from the first dataset, we will assign each bill to a topic. We will use this information to compare whether they reflect to the ideologies of the parties in the current congress. Our interests lay whether, for instance, a republican congress actually focuses on bills with republican topics and what those topics are. Also, by comparing these results with the second dataset, which focuses on 'Lexical shifts, substantive changes, and continuity in State of the Union discourse', research whether bill topics and topics of 'the State of the Union' per time relate to each other.
+This project generates and applies an LDAtopic model on Bills of the US Congressin the period between 1973 until present.The topics are analysed in attempt to iden-tify which topics are of particular interestto  either  the  Democratic  or  Republicanparty. 
 
 Research questions
 ------------------
