@@ -1,12 +1,8 @@
-Final Project Text Mining & Collective Intelligence
-===========================
-
-Eva Gmelich Meijling, Rajiv Manichand and Hanabi Ono
-
-Title
------
-
 Topic Modeling on Bills of the US Congress
+===========================
+Contributors
+--------
+Eva Gmelich Meijling, Rajiv Manichand and Hanabi Ono
 
 Abstract
 --------
